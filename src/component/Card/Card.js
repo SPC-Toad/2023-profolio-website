@@ -10,11 +10,11 @@ function Card({title, description, background_image}) {
         <div className='card-content'>
             <div className='card-title'><h3>{ title }</h3></div>
             <div className='body-text'>
-              <p>{ description }</p>
+              <p className='paragraph'>{ description }</p>
             </div>
-            <button className='buttn'>
+            {/* <button className='buttn'>
               <a>More</a>
-            </button>
+            </button> */}
         </div>
     </div>
   )

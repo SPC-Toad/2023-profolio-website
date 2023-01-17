@@ -3,6 +3,7 @@ import './About.css'
 
 // toad png
 import toad from '../../visuals/toad.gif';
+import resume from '../../visuals/Resume-SangyunKim.pdf'
 
 // web-development icon
 import HTML from '../../visuals/html.png'
@@ -113,7 +114,7 @@ export default function About() {
             If learn more about me, check out the resume below!<br /><br />
             If learn more about personal side of me, check out the personal tab!<br /><br />
           </p>
-          <button className='resume-button'>Resume (.pdf)</button>
+          <a href={resume} className='resume-button'>Resume (.pdf)</a>
         </div>
         <img className='toad-pic' src={ toad } alt='Error'></img>
       </div>

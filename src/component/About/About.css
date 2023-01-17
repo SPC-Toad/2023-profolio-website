@@ -20,16 +20,17 @@
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    padding: 10px;
     font-weight: lighter;
 }
 
 .about-text-box li:hover {
     font-size: 30px;
     font-weight: bolder;
-    text-decoration: underline;
+    text-decoration: none;
     font-style: italic;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b5965f50;
+    border-radius: 20px 2px 2px 20px;
 }
 
 .img_1 {

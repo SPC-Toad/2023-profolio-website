@@ -3,14 +3,14 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 // import files
-import About from '../About/About';
 import Card from '../Card/Card';
 import './Home.css';
 
 // png and gif
 import profile from '../../visuals/profile.jpg'
 import cqb from '../../visuals/cqb.jpg';
-import frontend from '../../visuals/frontend.png';
+import old_website from '../../visuals/old-website.PNG';
+import new_website from '../../visuals/new-website.PNG';
 import workinprogress from '../../visuals/workinprogress.png';
 
 
@@ -47,7 +47,7 @@ export default function Home() {
                 Understanding router and router-DOM to navigate through different pages such as: home, about, contact page. 
                 Ensured website functions as intended.
               '
-              background_image={ frontend }
+              background_image={ new_website }
             />
             <Card 
               title='Web Development'
@@ -56,7 +56,7 @@ export default function Home() {
                 Explored website functionality such as inserting “about” page and “contact me” page.
                 Ensured website functions as intended
               '
-              background_image={ frontend }
+              background_image={ old_website }
             />
             <Card 
               title='Annual Training'

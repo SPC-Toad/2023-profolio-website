@@ -16,17 +16,18 @@
 .card-content {
     margin: 1rem;
     margin-top: .5rem;
-    
 }
 
-h3, p {
+h3 {
     margin:0;
     padding:0;
 }
 
+
 .image-container img {
     overflow: hidden;
     width: 100%;
+    height: 33vh;
 }
 
 .card-title {
@@ -39,6 +40,10 @@ h3, p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     margin-bottom: 0.5rem;
+    height:15vh;
+    margin:0;
+    padding:0;
+    overflow-y: auto;
 }
 
 .buttn {
