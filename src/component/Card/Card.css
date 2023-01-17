@@ -1,0 +1,47 @@
+.card-container {
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: .5s;
+    animation:ease-in-out;
+    background-color: #b5955f;
+    margin: .7rem;
+}
+
+.card-container:hover {
+    transform:scale(1.05);
+    box-shadow: 0px 0px 15px 0px;;
+}
+
+.card-content {
+    margin: 1rem;
+    margin-top: .5rem;
+    
+}
+
+h3, p {
+    margin:0;
+    padding:0;
+}
+
+.image-container img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+}
+
+.body-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.buttn {
+    display: flex;
+    justify-content: center;
+}

@@ -1,21 +1,30 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import './Contact.css'
+import './Contact.css';
+import { SocialIcon } from 'react-social-icons';
 
-const linkedInBut = () => {
-  return(
-    () => <Link to='https://www.linkedin.com/in/sangyun-kim/'></Link>
-  );
-}
+import profile from '../../visuals/profile.jpg';
 
 export default function Contact() {
   return (
     <>
-    <div className='text-box'>
-      <h1>Contact page!</h1>
-      <div>SangyunKim2025@gmail.com</div>
-      <button onClick={linkedInBut}>LinkedIn</button>
-    </div>
+        <div className='contact-intro'>
+            <div className='contact-component'>
+                <p className='contact-text-box'>
+                    Thank you for stopping by! Contact me through these links below!
+                </p>
+                <img className='my-face' src={ profile } />
+                <div className='gmail-and-github'>
+                    <SocialIcon className='social-icons' network="mailto" style={{ height: 130, width: 130 }}/>
+                    <SocialIcon  url='https://github.com/SPC-Toad' style={{ height: 130, width: 130 }}/>
+                </div>
+                <div id='email-text'>
+                    SangyunKim2025@gmail.com
+                </div>
+                <div className='linked-in-icon'>
+                <SocialIcon className='social-icons' url='https://www.linkedin.com/in/sangyun-kim/' style={{ height: 130, width: 130}}/>
+                </div>
+            </div>
+        </div>
     </>
   )
 }

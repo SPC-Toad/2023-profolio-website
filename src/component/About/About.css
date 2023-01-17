@@ -1,3 +1,87 @@
-.body-text {
-    font-size: 1.2rem;
+.about-intro {
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.about-text-box {
+    display: flex;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+.about-text-box li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.about-text-box li:hover {
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_1 {
+    display: flex;
+    width: 70px;
+}
+
+.img_2 {
+    display: flex;
+    width: 70px;
+}
+
+/* resume section */
+
+.resume-section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.resume-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+.resume-button {
+    position: relative;
+    box-shadow: 7px 8px 8px 2px #1c1b18;
+	background:linear-gradient(to bottom, #e3c188 5%, #b5955f 100%);
+	background-color:#b5955f;
+	border-radius:17px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:11px 52px;
+	text-decoration:none;
+}
+
+.resume-button:hover {
+    background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+
+.toad-pic {
+    border-radius: 50%;
+    width: 20%;
 }

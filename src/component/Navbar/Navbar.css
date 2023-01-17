@@ -3,27 +3,39 @@
 }
 
 body {
-    margin: 0;
+    margin-top: 15px;
 }
 
 .navbar {
-    background-color: #333;
-    color: white;
-    display:flex;
+    background-color: white;
+    color: #b5955f;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 4%;
     height: 3.5rem;
+    z-index: 99;
 }
 
 .navbar ul {
-    padding: 0 7%;
     margin: 0;
     list-style: none;
     display: flex;
     height: 100%;
     gap: 60%;
-    font-size: 1.5rem;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 50%;
+}
+
+.navbar li {
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    font-weight:500;
+    text-decoration: overline;
 }
 
 .navbar a {
@@ -35,10 +47,7 @@ body {
 }
 
 .home-icon {
-    color: white;
-    font-size: 1.7rem;
-}
-
-li:hover {
-    background-color: #777;
+    color: #b5955f;
+    font-size: 2.5rem;
+    text-decoration: none;
 }
